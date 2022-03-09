@@ -1,1 +1,1 @@
-Go to page[https://leo271013.github.io/]
+https://leo271013.github.io/
