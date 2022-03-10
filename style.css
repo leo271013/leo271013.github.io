@@ -113,10 +113,6 @@ a {
   z-index: 10;
   text-align: center;
 }
-.profile .picture-resume img {
-  border-radius: 38%;
-  width: 160px;
-}
 
 .profile .contact-info {
   margin-top: 100px;
@@ -163,15 +159,17 @@ a {
     margin-bottom: 50px;
   }
 }
-.profile svg {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.circle {
+  background: #4fade3;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
 }
-.profile .st0,
-.profile .st1 {
-  fill: #4fade3;
+
+.circle img {
+  width: 160px;
 }
 
 .experience {
